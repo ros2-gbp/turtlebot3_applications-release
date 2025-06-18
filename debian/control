@@ -1,0 +1,12 @@
+Source: ros-jazzy-turtlebot3-panorama
+Section: misc
+Priority: optional
+Maintainer: Pyo <pyo@robotis.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jazzy-ament-cmake, ros-jazzy-cv-bridge, ros-jazzy-geometry-msgs, ros-jazzy-image-transport, ros-jazzy-nav-msgs, ros-jazzy-rclcpp, ros-jazzy-sensor-msgs, ros-jazzy-turtlebot3-applications-msgs, ros-jazzy-ros-workspace
+Homepage: http://turtlebot3.robotis.com
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-turtlebot3-panorama
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jazzy-cv-bridge, ros-jazzy-geometry-msgs, ros-jazzy-image-transport, ros-jazzy-nav-msgs, ros-jazzy-rclcpp, ros-jazzy-sensor-msgs, ros-jazzy-turtlebot3-applications-msgs, ros-jazzy-ros-workspace
+Description: Package for turtlebot3 panorama.
