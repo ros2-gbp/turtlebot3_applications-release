@@ -1,0 +1,12 @@
+Source: ros-jazzy-turtlebot3-applications
+Section: misc
+Priority: optional
+Maintainer: Pyo <pyo@robotis.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jazzy-ament-cmake, ros-jazzy-ros-workspace
+Homepage: http://turtlebot3.robotis.com
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-turtlebot3-applications
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jazzy-turtlebot3-aruco-tracker, ros-jazzy-turtlebot3-automatic-parking, ros-jazzy-turtlebot3-automatic-parking-vision, ros-jazzy-turtlebot3-follower, ros-jazzy-turtlebot3-panorama, ros-jazzy-turtlebot3-yolo-object-detection, ros-jazzy-ros-workspace
+Description: ROS packages for the turtlebot3 applications (meta package)
