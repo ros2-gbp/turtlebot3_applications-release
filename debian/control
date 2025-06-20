@@ -1,0 +1,12 @@
+Source: ros-humble-turtlebot3-automatic-parking-vision
+Section: misc
+Priority: optional
+Maintainer: Pyo <pyo@robotis.com>
+Build-Depends: debhelper (>= 9.0.0), python3-scipy, ros-humble-geometry-msgs, ros-humble-nav-msgs, ros-humble-rclpy, ros-humble-std-msgs, ros-humble-tf2-ros, ros-humble-ros-workspace, python3-all, python3-setuptools, dh-python
+Homepage: http://turtlebot3.robotis.com
+Standards-Version: 3.9.2
+
+Package: ros-humble-turtlebot3-automatic-parking-vision
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, python3-scipy, ros-humble-geometry-msgs, ros-humble-nav-msgs, ros-humble-rclpy, ros-humble-std-msgs, ros-humble-tf2-ros, ros-humble-ros-workspace
+Description: Automatic Parking Vision for TurtleBot3 Examples.
